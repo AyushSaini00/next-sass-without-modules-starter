@@ -1,0 +1,36 @@
+@use 'mixins';
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  line-height: 1.5;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@include mixins.tablet() {
+}
+@include mixins.laptop() {
+}
+@include mixins.desktop() {
+}
