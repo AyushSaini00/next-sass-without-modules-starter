@@ -1,13 +1,12 @@
 import Layout from '../components/Layout';
 import CustomLink from '../components/utilities/CustomLink';
-import styles from '../styles/pages/Home.module.scss';
 
 export default function Home() {
   return (
     <Layout>
-      <div className={styles.home}>
+      <div>
         <h1>
-          Nextjs clean Starter by{' '}
+          Nextjs SASS without modules Starter by{' '}
           <CustomLink href="https://ayushsaini.com">Ayush Saini</CustomLink>
         </h1>
         <p>
@@ -15,7 +14,7 @@ export default function Home() {
         </p>
         <h2>
           Read{' '}
-          <CustomLink href="https://github.com/AyushSaini00/next-clean-starter#readme">
+          <CustomLink href="https://github.com/AyushSaini00/next-sass-without-modules-starter#readme">
             documentation
           </CustomLink>
         </h2>

@@ -1,7 +1,5 @@
-import * as styles from '../styles/components/Navbar.module.scss';
-
 const Navbar = () => {
-  return <nav className={styles.nav}></nav>;
+  return <nav></nav>;
 };
 
 export default Navbar;
