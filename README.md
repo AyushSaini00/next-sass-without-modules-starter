@@ -1,19 +1,19 @@
-# Next Clean Starter
+# Next SASS without Modules Starter
 
-My go-to project starter template for Next.js apps. Inspired by [my portfolio](https://ayushsaini.com)
+Same as [Next Clean Starter](https://github.com/AyushSaini00/next-clean-starter) but without component level styling.
 
 ## 👓 Preview
 
-Preview it on [stackblitz](https://stackblitz.com/github/AyushSaini00/next-clean-starter) without installing anything locally.
+Preview it on [stackblitz](https://stackblitz.com/github/AyushSaini00/next-sass-without-modules-starter) without installing anything locally.
 
 ## 🚀 Getting Started
 
 First, run the following command to create a new project:
 
 ```bash
-npx create-next-app my-app -e https://github.com/AyushSaini00/next-clean-starter
+npx create-next-app my-app -e https://github.com/AyushSaini00/next-sass-without-modules-starter
 # or
-yarn create next-app my-app -e https://github.com/AyushSaini00/next-clean-starter
+yarn create next-app my-app -e https://github.com/AyushSaini00/next-sass-without-modules-starter
 ```
 
 After the installation of the project, navigate to the project directory and run the following command to spin up the development server
